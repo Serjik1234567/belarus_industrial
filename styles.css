@@ -1,0 +1,42 @@
+/* Стили для баллона */
+.city-balloon {
+    font-family: Arial, sans-serif;
+    padding: 12px;
+    line-height: 1.5;
+}
+
+.city-name {
+    margin: 0 0 8px 0;
+    color: #333;
+    font-size: 16px;
+}
+
+.city-population,
+.city-founded {
+    margin: 4px 0;
+    color: #555;
+    font-size: 14px;
+}
+
+.city-attractions,
+.city-features {
+    margin-top: 8px;
+    padding-top: 8px;
+    border-top: 1px solid #eee;
+    color: #666;
+    font-size: 13px;
+}
+
+/* Стили для подсказки (hint) */
+.ymaps-hint {
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+/* Кастомизация иконки метки (опционально) */
+.islands-blueDotIcon {
+    filter: hue-rotate(210deg); /* Изменить оттенок синего */
+}
