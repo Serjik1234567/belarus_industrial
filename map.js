@@ -90,12 +90,14 @@ ymaps.ready(function () {
             coords: [52.0975, 23.6878],
             info: `
                 <div class="city-balloon">
-                    <h3 class="city-name">Брест</h3>
-                    <p class="city-population">Население: ~344 тыс. чел.</p>
-                    <p class="city-founded">Основан: 1019 год</p>
+                    <h3 class="city-name">Брест Пишем что захотим</h3>
+                    <p class="city-population">Пишем что захотим напримерНаселение: ~344 тыс. чел.</p>
+                    <p class="city-founded">Пишем что захотим Основан: 1019 год</p>
                     <div class="city-attractions">
-                        <strong>Достопримечательности:</strong>
+                        <strong>Пишем что захотим Достопримечательности:</strong>
                         Брестская крепость, Железнодорожный музей
+
+						Сюда даже табличку можно вставить
                     </div>
                 </div>
             `
@@ -105,9 +107,9 @@ ymaps.ready(function () {
             coords: [53.1328, 26.0197],
             info: `
                 <div class="city-balloon">
-                    <h3 class="city-name">Барановичи</h3>
-                    <p class="city-population">Население: ~171 тыс. чел.</p>
-                    <p class="city-founded">Основан: 1871 год</p>
+                    <h3 class="city-name">Пишем что захотим Барановичи</h3>
+                    <p class="city-population">Пишем что захотим Население: ~171 тыс. чел.</p>
+                    <p class="city-founded">Пишем что захотим Основан: 1871 год</p>
                     <div class="city-features">
                         <strong>Особенности:</strong>
                         Крупный железнодорожный узел
@@ -144,3 +146,4 @@ ymaps.ready(function () {
         map.geoObjects.add(placemark);
     });
 });
+
